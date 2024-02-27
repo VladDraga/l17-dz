@@ -98,8 +98,9 @@ body {
     font-weight: 700;
     background-color: var(--color-acent);
     color: white;
+    border: 0;
     border-radius: 5px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 32px;
 }
 
 .figure {
@@ -306,6 +307,40 @@ body {
 }
 
 .solution{
-    background-image: url("./webstudiophoto/img\ \(7\).jpg");
+    background-image: url("./webstudiophoto/imgseven.jpg");
     padding: 200px 0;
+}
+
+.figure:nth-child(1):before{
+    display: block;
+
+    background-color: #F5F4FA;
+    content: url(./webstudiophoto/antenna.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
+}
+
+.figure:nth-child(2):before{
+    display: block;
+    background-color: #F5F4FA;
+    content: url(./webstudiophoto/clock.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
+}
+
+
+.figure:nth-child(3):before{
+    display: block;
+    background-color: #F5F4FA;
+    content: url(./webstudiophoto/diagram.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
+}
+
+.figure:nth-child(4):before{
+    display: block;
+    background-color: #F5F4FA;
+    content: url(./webstudiophoto/astronaut.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
 }
